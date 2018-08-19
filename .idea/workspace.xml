@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/CountandSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaximumSubarray.java" afterDir="false" />
+    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AddBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LengthofLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestCommonPrefixSol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LongestCommonPrefixSol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/ValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leet/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/leet/MergeTwoSortedLists.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SearchInsertPosition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImplementstrStr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ImplementstrStr.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,38 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RemoveElement.java">
+      <file leaf-file-name="AddBinary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicatesfromSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RemoveDuplicatesfromSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountandSay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CountandSay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MaximumSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="-1481">
+              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -104,6 +59,9 @@
         <option value="$PROJECT_DIR$/src/RemoveDuplicatesfromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/CountandSay.java" />
         <option value="$PROJECT_DIR$/src/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/LengthofLastWord.java" />
+        <option value="$PROJECT_DIR$/src/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/AddBinary.java" />
       </list>
     </option>
   </component>
@@ -124,8 +82,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
-    <option name="y" value="42" />
+    <option name="x" value="102" />
+    <option name="y" value="27" />
     <option name="width" value="1413" />
     <option name="height" value="1107" />
   </component>
@@ -181,14 +139,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumSubarray">
+  <component name="RunManager" selected="Application.AddBinary">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddBinary" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="CountandSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountandSay" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="LengthofLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LengthofLastWord" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumSubarray" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlusOne" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -236,9 +209,15 @@
     <list>
       <item itemvalue="Application.CountandSay" />
       <item itemvalue="Application.MaximumSubarray" />
+      <item itemvalue="Application.LengthofLastWord" />
+      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.AddBinary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddBinary" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.LengthofLastWord" />
         <item itemvalue="Application.MaximumSubarray" />
         <item itemvalue="Application.CountandSay" />
       </list>
@@ -256,7 +235,7 @@
       <updated>1534338305780</updated>
       <workItem from="1534338313725" duration="658000" />
       <workItem from="1534381481361" duration="669000" />
-      <workItem from="1534508902041" duration="5016000" />
+      <workItem from="1534508902041" duration="17921000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1534338745620</created>
@@ -272,11 +251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534338892152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1534514142909</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534514142909</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6343000" />
+    <option name="totallyTimeSpent" value="19248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -284,14 +270,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297491" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27060932" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17741935" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -421,8 +407,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LengthofLastWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1481">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
