@@ -1,6 +1,4 @@
-package leet;
-
-import linkedlist.ListNode;
+package linkedlist;
 
 import java.util.Scanner;
 

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PascalsTriangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStockII_122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock_121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesfromSortedList_83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeLevelOrderTraversal_107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MinimumDepthofBinaryTree_111.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/MergeTwoSortedLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/InsertNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/ListNode.java">
+      <file leaf-file-name="BinaryTreeInorderTraversal_94.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="670">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+      <file leaf-file-name="Balanced_Binary_Tree_110.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="211">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -74,6 +81,15 @@
         <option value="$PROJECT_DIR$/src/PascalsTriangle2.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ListNode.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/InsertNode.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesfromSortedList_83.java" />
+        <option value="$PROJECT_DIR$/src/tree/BinaryTreeLevelOrderTraversal_107.java" />
+        <option value="$PROJECT_DIR$/src/tree/MinimumDepthofBinaryTree_111.java" />
+        <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStock_121.java" />
+        <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStockII_122.java" />
+        <option value="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java" />
+        <option value="$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java" />
       </list>
     </option>
   </component>
@@ -125,7 +141,7 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,9 +173,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangle">
-    <configuration name="MaximumDepthofBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.MaximumDepthofBinaryTree" />
+  <component name="RunManager" selected="Application.Balanced_Binary_Tree_110">
+    <configuration name="Balanced_Binary_Tree_110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.Balanced_Binary_Tree_110" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -169,18 +185,18 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
+    <configuration name="BestTimetoBuyandSellStockII_122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BestTimetoBuyandSellStockII_122" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PascalsTriangle" />
+    <configuration name="BestTimetoBuyandSellStock_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BestTimetoBuyandSellStock_121" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SameTree" />
+    <configuration name="BinaryTreeInorderTraversal_94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeInorderTraversal_94" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -190,8 +206,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SymmetricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SymmetricTree" />
+    <configuration name="MinimumDepthofBinaryTree_111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.MinimumDepthofBinaryTree_111" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -243,19 +259,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSortedArray" />
-      <item itemvalue="Application.SameTree" />
-      <item itemvalue="Application.SymmetricTree" />
-      <item itemvalue="Application.MaximumDepthofBinaryTree" />
-      <item itemvalue="Application.PascalsTriangle" />
+      <item itemvalue="Application.MinimumDepthofBinaryTree_111" />
+      <item itemvalue="Application.BestTimetoBuyandSellStock_121" />
+      <item itemvalue="Application.BestTimetoBuyandSellStockII_122" />
+      <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
+      <item itemvalue="Application.Balanced_Binary_Tree_110" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PascalsTriangle" />
-        <item itemvalue="Application.MaximumDepthofBinaryTree" />
-        <item itemvalue="Application.SymmetricTree" />
-        <item itemvalue="Application.SameTree" />
-        <item itemvalue="Application.MergeSortedArray" />
+        <item itemvalue="Application.Balanced_Binary_Tree_110" />
+        <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
+        <item itemvalue="Application.BestTimetoBuyandSellStockII_122" />
+        <item itemvalue="Application.BestTimetoBuyandSellStock_121" />
+        <item itemvalue="Application.MinimumDepthofBinaryTree_111" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +293,7 @@
       <workItem from="1537056545860" duration="296000" />
       <workItem from="1537059009620" duration="83000" />
       <workItem from="1543926578040" duration="1225000" />
-      <workItem from="1551274837942" duration="6571000" />
+      <workItem from="1551274837942" duration="20774000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1534338745620</created>
@@ -321,11 +337,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534942965928</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1551885540992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551885540992</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1551885779471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551885779471</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41815000" />
+    <option name="totallyTimeSpent" value="56018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -341,11 +371,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27598566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2921147" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2708165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2708165" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,73 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tree/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="42" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/MaximumDepthofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/LeetCode/tree/SymmetricTree.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="42" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/MaximumDepthofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -740,6 +703,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/InsertNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesfromSortedList_83.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -747,10 +738,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/MinimumDepthofBinaryTree_111.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="516">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeLevelOrderTraversal_107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStockII_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
