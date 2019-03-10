@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStockII_122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BestTimetoBuyandSellStock_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/RemoveDuplicatesfromSortedList_83.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeLevelOrderTraversal_107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MinimumDepthofBinaryTree_111.java" afterDir="false" />
+    <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Single_Number_136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single_Number_137.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Valid_Palindrome_125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leet/MergeTwoSortedLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/InsertNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/InsertNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinaryTreeInorderTraversal_94.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java">
+      <file leaf-file-name="Single_Number_136.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Single_Number_136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Balanced_Binary_Tree_110.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java">
+      <file leaf-file-name="Single_Number_137.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Single_Number_137.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="291">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/BestTimetoBuyandSellStockII_122.java" />
         <option value="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java" />
         <option value="$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java" />
+        <option value="$PROJECT_DIR$/src/Valid_Palindrome_125.java" />
+        <option value="$PROJECT_DIR$/src/Single_Number_136.java" />
+        <option value="$PROJECT_DIR$/src/Single_Number_137.java" />
       </list>
     </option>
   </component>
@@ -137,12 +138,6 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -173,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Balanced_Binary_Tree_110">
+  <component name="RunManager" selected="Application.Single_Number_137">
     <configuration name="Balanced_Binary_Tree_110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.Balanced_Binary_Tree_110" />
       <module name="LeetCode" />
@@ -184,16 +179,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="BestTimetoBuyandSellStockII_122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BestTimetoBuyandSellStockII_122" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BestTimetoBuyandSellStock_121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BestTimetoBuyandSellStock_121" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="BinaryTreeInorderTraversal_94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeInorderTraversal_94" />
@@ -206,16 +191,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MinimumDepthofBinaryTree_111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.MinimumDepthofBinaryTree_111" />
+    <configuration name="Single_Number_136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Single_Number_136" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    </configuration>
+    <configuration name="Single_Number_137" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Single_Number_137" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Valid_Palindrome_125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Valid_Palindrome_125" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -259,19 +248,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MinimumDepthofBinaryTree_111" />
-      <item itemvalue="Application.BestTimetoBuyandSellStock_121" />
-      <item itemvalue="Application.BestTimetoBuyandSellStockII_122" />
       <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
       <item itemvalue="Application.Balanced_Binary_Tree_110" />
+      <item itemvalue="Application.Valid_Palindrome_125" />
+      <item itemvalue="Application.Single_Number_136" />
+      <item itemvalue="Application.Single_Number_137" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Single_Number_137" />
+        <item itemvalue="Application.Single_Number_136" />
+        <item itemvalue="Application.Valid_Palindrome_125" />
         <item itemvalue="Application.Balanced_Binary_Tree_110" />
         <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
-        <item itemvalue="Application.BestTimetoBuyandSellStockII_122" />
-        <item itemvalue="Application.BestTimetoBuyandSellStock_121" />
-        <item itemvalue="Application.MinimumDepthofBinaryTree_111" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +282,7 @@
       <workItem from="1537056545860" duration="296000" />
       <workItem from="1537059009620" duration="83000" />
       <workItem from="1543926578040" duration="1225000" />
-      <workItem from="1551274837942" duration="20774000" />
+      <workItem from="1551274837942" duration="24574000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1534338745620</created>
@@ -351,14 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551885779471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1552137611183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552137611183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56018000" />
+    <option name="totallyTimeSpent" value="59818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -407,31 +403,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tree/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="42" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/MaximumDepthofBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/SameTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -769,6 +740,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Valid_Palindrome_125.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal_94.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
@@ -776,10 +761,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/Balanced_Binary_Tree_110.java">
+    <entry file="file://$PROJECT_DIR$/src/Single_Number_136.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Single_Number_137.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
