@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ca53b2-5fe7-4d2d-a190-18de7b6f4cac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Single_Number_136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Single_Number_137.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Valid_Palindrome_125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/Linked_List_Cycle_141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/MinStack_155.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,13 +31,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Single_Number_137.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Single_Number_137.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Single_Number_137.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Linked_List_Cycle_141.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/Linked_List_Cycle_141.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <caret line="16" column="21" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinStack_155.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack/MinStack_155.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <element signature="e#347#348#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +114,9 @@
         <option value="$PROJECT_DIR$/src/Valid_Palindrome_125.java" />
         <option value="$PROJECT_DIR$/src/Single_Number_136.java" />
         <option value="$PROJECT_DIR$/src/Single_Number_137.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/Linked_List_Cycle_141.java" />
+        <option value="$PROJECT_DIR$/src/stack/MainStack_155.java" />
+        <option value="$PROJECT_DIR$/src/stack/MinStack_155.java" />
       </list>
     </option>
   </component>
@@ -138,6 +164,12 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,25 +200,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Single_Number_137">
-    <configuration name="Balanced_Binary_Tree_110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.Balanced_Binary_Tree_110" />
+  <component name="RunManager" selected="Application.MinStack_155">
+    <configuration name="Linked_List_Cycle_141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Linked_List_Cycle_141" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BinaryTreeInorderTraversal_94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTreeInorderTraversal_94" />
+    <configuration name="MinStack_155" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.MinStack_155" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,19 +280,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
-      <item itemvalue="Application.Balanced_Binary_Tree_110" />
       <item itemvalue="Application.Valid_Palindrome_125" />
       <item itemvalue="Application.Single_Number_136" />
       <item itemvalue="Application.Single_Number_137" />
+      <item itemvalue="Application.Linked_List_Cycle_141" />
+      <item itemvalue="Application.MinStack_155" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinStack_155" />
+        <item itemvalue="Application.Linked_List_Cycle_141" />
         <item itemvalue="Application.Single_Number_137" />
         <item itemvalue="Application.Single_Number_136" />
         <item itemvalue="Application.Valid_Palindrome_125" />
-        <item itemvalue="Application.Balanced_Binary_Tree_110" />
-        <item itemvalue="Application.BinaryTreeInorderTraversal_94" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +314,7 @@
       <workItem from="1537056545860" duration="296000" />
       <workItem from="1537059009620" duration="83000" />
       <workItem from="1543926578040" duration="1225000" />
-      <workItem from="1551274837942" duration="24574000" />
+      <workItem from="1551274837942" duration="30270000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1534338745620</created>
@@ -347,14 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552137611183</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1552224038739</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552224038739</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59818000" />
+    <option name="totallyTimeSpent" value="65514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -403,24 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tree/SameTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/SymmetricTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -702,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/MinimumDepthofBinaryTree_111.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -773,10 +787,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Single_Number_137.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/Linked_List_Cycle_141.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <caret line="16" column="21" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/MinStack_155.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="e#347#348#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
           </folding>
         </state>
       </provider>
