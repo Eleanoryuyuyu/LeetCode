@@ -1,12 +1,9 @@
-from heapq import heappop, heappush
-from typing import List
-
 
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
-        heap = []
-        for num in nums:
-            heappush(heap, num)
-            if len(heap) > k:
-                heappop(heap)
-        return heap[0]
+    def findKthLargest1(self, nums, k):
+        nums = sorted(nums)
+        return nums[len(nums)-k]
+
+nums = [3,2,3,1,2,4,5,5,6]
+s = Solution()
+print(s.findKthLargest1(nums, 4))
