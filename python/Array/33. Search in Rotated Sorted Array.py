@@ -20,6 +20,18 @@ class Solution:
         return -1
 
     def search2(self, nums: List[int], target: int) -> int:
+        def findRotateIndex(nums, left, right):
+            if nums[left] < nums[right]:
+                return 0
+            while left <= right:
+                rotateIndex = (left + right) // 2
+                if nums[rotateIndex] > nums[rotateIndex + 1]:
+                    return rotateIndex + 1
+                else:
+                    if nums[left] > nums[rotateIndex]:
+                        right = rotateIndex - 1
+                    else:
+                        left = rotateIndex + 1
         def searchHelper(sub_nums, target):
             if len(sub_nums) == 1:
                 return 0 if sub_nums[0] == target else -1
@@ -34,25 +46,24 @@ class Solution:
                 else:
                     return mid
             return -1
+
         if not nums:
             return -1
-        start = 0
-        end = len(nums) - 1
-        mid = (start + end) // 2 + 1
-        while nums[mid] > nums[start]:
-            mid += 1
-        left_res = searchHelper(nums[:mid], target)
-        right_res = searchHelper(nums[mid:], target)
-        if left_res!= -1:
-            return left_res
-        elif right_res != -1:
-            return mid + right_res
+        if len(nums) == 1:
+            return 0 if nums[0] == target else -1
+        rotateIndex = findRotateIndex(nums, 0, len(nums) - 1)
+        if nums[rotateIndex] == target:
+            return rotateIndex
+        elif nums[0] > target:
+            res = searchHelper(nums[rotateIndex:], target)
+            return rotateIndex + res if res != -1 else -1
+        elif nums[-1] < target:
+            return searchHelper(nums[:rotateIndex], target)
         else:
-            return -1
+            return searchHelper(nums, target)
 
 
 
-
-s  = Solution()
-nums = [4,5,6,7,0,1,2]
-print(s.search2(nums, 0))
+s = Solution()
+nums = [8,9,2,3,4]
+print(s.search2(nums, 9))
