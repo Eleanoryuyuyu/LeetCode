@@ -36,8 +36,8 @@ class Solution:
 
     def findKthLargest3(self, nums, k):
         def adjustHeap(nums, i, size):
-            lchild = 2*i + 1
-            rchild = 2*i + 2
+            lchild = 2 * i + 1
+            rchild = 2 * i + 2
             largest = i
             if lchild < size and nums[lchild] > nums[largest]:
                 largest = lchild
@@ -47,19 +47,35 @@ class Solution:
                 nums[largest], nums[i] = nums[i], nums[largest]
                 nums = adjustHeap(nums, largest, size)
             return nums
+
         def buildHeap(nums, size):
-            for i in range(size//2, -1, -1):
+            for i in range(size // 2, -1, -1):
                 nums = adjustHeap(nums, i, size)
             return nums
+
         if not nums:
             return
         heap = buildHeap(nums[:k], k)
         for i in range(k, len(nums)):
             if nums[i] > heap[0]:
-                heap[0] = nums[i]
+                heap[0], nums[i] = nums[i], heap[0]
                 heap = adjustHeap(heap, 0, k)
         return heap[0]
 
-nums = [3,2,1,5,6,4]
+    def findKthLargest4(self, nums, k):
+        for i in range(1, k):
+            for j in range(k - 1, 0, -1):
+                if nums[j] > nums[j - 1]:
+                    nums[j], nums[j - 1] = nums[j - 1], nums[j]
+        for i in range(k, len(nums)):
+            if nums[i] > nums[k - 1]:
+                nums[k - 1] = nums[i]
+                for j in range(k - 1, 0, -1):
+                    if nums[j] > nums[j - 1]:
+                        nums[j], nums[j - 1] = nums[j - 1], nums[j]
+        return nums[k - 1]
+
+
+nums = [2, 1, 4, 3, 5, 9, 8, 0, 1, 3, 2, 5]
 s = Solution()
-print(s.findKthLargest3(nums, 2))
+print(s.findKthLargest4(nums, 6))
