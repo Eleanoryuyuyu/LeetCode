@@ -2,15 +2,8 @@ from typing import List
 
 
 class Solution:
-
-    def twoSum(self, nums, target):
-        keys = {}
-        for i in range(len(nums)):
-            if target - nums[i] in keys:
-                return [i, keys[target - nums[i]]]
-            elif nums[i] not in keys:
-                keys[nums[i]] = i
-
+    # 双指针法，先排序数组，固定指针k；
+    # 双指针i，j 边界为k,len(nums),向中间逼近
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
         result = []

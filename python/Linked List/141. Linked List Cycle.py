@@ -3,7 +3,9 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
+    # 1. 快慢指针，空间复杂度O(1)
     def hasCycle(self, head: ListNode) -> bool:
         slow = head
         fast = head
@@ -12,4 +14,15 @@ class Solution:
             fast = fast.next.next
             if slow == fast:
                 return True
-        return  False
+        return False
+
+    #2. 哈希表，空间复杂度O(n)
+    def hasCycle(self, head: ListNode) -> bool:
+        hash_set = set()
+        while head:
+            if head.val in hash_set:
+                return True
+            else:
+                hash_set.add(head.val)
+            head = head.next
+        return False
