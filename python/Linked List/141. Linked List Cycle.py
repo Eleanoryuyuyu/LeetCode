@@ -20,9 +20,9 @@ class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         hash_set = set()
         while head:
-            if head.val in hash_set:
+            if head in hash_set:
                 return True
             else:
-                hash_set.add(head.val)
+                hash_set.add(head)
             head = head.next
         return False

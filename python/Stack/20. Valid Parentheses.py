@@ -30,6 +30,26 @@ class Solution:
             return False
         return True
 
+    def isValid3(self, s: str) -> bool:
+        if len(s) <= 1:
+            return False
+        stack = []
+        for i in range(len(s)):
+            if s[i] == '(':
+                stack.append(')')
+            elif s[i] == '[':
+                stack.append(']')
+            elif s[i] == '{':
+                stack.append('}')
+            elif stack and s[i] != stack.pop():
+                return False
+            else:
+                return False
+        if stack:
+            return False
+        return True
+
+
 
 s = Solution()
-print(s.isValid2("("))
+print(s.isValid3("(()"))
