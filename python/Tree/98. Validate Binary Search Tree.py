@@ -1,11 +1,16 @@
-from Tree.tree import *
 import sys
 
 max = sys.maxsize
 min = -sys.maxsize - 1
 
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
+    # 1. 递归，每个结点都会被访问到，时间复杂度O(n)
     def isValidBSTHelper(self, root, min, max):
         if root is None:
             return True
@@ -17,6 +22,16 @@ class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
 
         return self.isValidBSTHelper(root, min, max)
+    # 2. 中序遍历二叉搜索树是升序排列的，时间复杂度O(n)
+    def isValidBST2(self, root: TreeNode) -> bool:
+        inorder = self.inOrder(root)
+        return inorder == list(sorted(set(inorder)))
+
+    def inOrder(self, root):
+        if not root:
+            return []
+        return self.inOrder(root.left) + [root.val] + self.inOrder(root.right)
+
 
 #
 # t1 = [2, 1, 3]
