@@ -19,18 +19,20 @@ class Solution:
         if len(nums) == 0:
             return 0
         dp = []
-        for i in range(len(nums)):
-            low, upper = 0, len(dp)
-            while low < upper:
-                mid = (upper-low)//2 + low
-                if dp[mid] < nums[i]:
-                    low = mid + 1
-                else:
-                    upper = mid
-            if upper == len(dp):
-                dp.append(nums[i])
+        for num in nums:
+            if not dp or num > dp[-1]:
+                dp.append(num)
             else:
-                dp[upper] = nums[i]
+                l, r = 0, len(dp) - 1
+                loc = r
+                while l <= r:
+                    mid = (r-l)//2 + l
+                    if dp[mid] >= num:
+                        loc = mid
+                        r = mid - 1
+                    else:
+                        l = mid + 1
+                dp[loc] = num
         return len(dp)
 
 
