@@ -70,6 +70,26 @@ class Solution:
 
         return mergeHelper(lists, 0, len(lists) - 1)
 
+    def mergeKLists4(self, lists):
+        from queue import PriorityQueue
+        if not lists:
+            return None
+        queue = PriorityQueue()
+        for l in lists:
+            if l:
+                queue.put((l.val, l))
+        head = ListNode(0)
+        cur = head
+        while not queue.empty():
+            val, node = queue.get()
+            cur.next = ListNode(val)
+            cur = cur.next
+            node = node.next
+            if node:
+                queue.put((node.val, node))
+        return head.next
+
+
 
 
 
@@ -102,6 +122,9 @@ lists.append(l1)
 lists.append(l2)
 lists.append(l3)
 s = Solution()
-res = s.mergeKLists3(lists)
+res = s.mergeKLists4(lists)
+while res:
+    print(res.val)
+    res = res.next
 
 
