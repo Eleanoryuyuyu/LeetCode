@@ -25,9 +25,19 @@ class Solution:
         for num in nums:
             result += [item + [num] for item in result]
         return result
+    # 二进制排序子集
+    def subsets3(self, nums: List[int]) -> List[List[int]]:
+        if not nums:
+            return []
+        n = len(nums)
+        res = []
+        for i in range(2**n, 2**(n+1)):
+            bitmask = bin(i)[3:]
+            res.append([nums[j] for j in range(n) if bitmask[j] == '1'])
+        return res
 
 
 
 s = Solution()
 nums = [1,2,3]
-print(s.subsets2(nums))
+print(s.subsets3(nums))
